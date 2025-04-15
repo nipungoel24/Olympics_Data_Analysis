@@ -1,57 +1,102 @@
-# Olympics Data Analysis Web App
 
-## Overview
-The Olympics Data Analysis Web App is an interactive Streamlit-based web application that provides insights into over 120 years of Olympic history. It allows users to explore medal trends, athlete statistics, country-wise performance, gender representation, and sports evolution through dynamic visualizations.
+# 🏅 Olympics Data Analysis Web App
 
-## Features
-- **Medal Tally & Trends** – Track medal distribution across years and countries.
-- **Athlete Analysis** – Explore athlete performance, age distribution, and achievements.
-- **Country Performance** – Compare Olympic performances of different nations.
-- **Gender Representation** – Analyze the evolution of male and female participation.
-- **Sports Evolution** – Understand how different sports have changed over time.
-- **Interactive Visualizations** – Use Matplotlib, Seaborn, and Plotly for data representation.
+## 🌐 Overview
+The **Olympics Data Analysis Web App** is an interactive Streamlit-based tool that provides insights into over 120 years of Olympic history. Dive into medal trends, athlete stats, country-wise performance, gender participation, and the evolution of sports—all through dynamic visualizations.
 
-## Dataset
-The project utilizes the **"120 Years of Olympic History: Athletes and Results"** dataset from Kaggle.
+## 🚀 Features
+- 🎖️ **Medal Tally & Trends** – Track medal counts by country and year.  
+- 🧍‍♂️ **Athlete Analysis** – Explore achievements and age trends of Olympic athletes.  
+- 🌍 **Country Performance** – Visualize how countries have performed over the years.  
+- ⚥ **Gender Representation** – Analyze male and female participation through the decades.  
+- 🏋️‍♂️ **Sports Evolution** – See how different sports have evolved.  
+- 📊 **Interactive Visuals** – Matplotlib, Seaborn, and Plotly make the data come alive.
 
-[Dataset Link](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
+## 📂 Dataset
+We use the [120 Years of Olympic History: Athletes and Results](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results) dataset from Kaggle.
 
-## Technologies Used
-- **Python** – Data processing and analysis
-- **Pandas & NumPy** – Data manipulation and transformation
-- **Matplotlib & Seaborn** – Data visualization
-- **Plotly** – Interactive charts and graphs
-- **Streamlit** – Web app framework for deployment
+## ⚙️ Installation & Setup
 
-## Installation
-1. Clone the repository:
-   ```sh
+### 👉 Option 1: Using Conda (Recommended)
+
+1. **Clone the repository**  
+   ```bash
    git clone https://github.com/yourusername/olympics-data-analysis.git
-   ```
-2. Navigate to the project directory:
-   ```sh
    cd olympics-data-analysis
    ```
-3. Install dependencies:
-   ```sh
+
+2. **Create a Conda environment**  
+   ```bash
+   conda create --name olympics-env python=3.10
+   conda activate olympics-env
+   ```
+
+3. **Install dependencies using pip**  
+   ```bash
    pip install -r requirements.txt
    ```
-4. Run the Streamlit app:
-   ```sh
+
+4. **Run the Streamlit app**  
+   ```bash
    streamlit run app.py
    ```
 
-## Future Enhancements
-- Adding **machine learning models** to predict future medal trends.
-- Implementing **real-time Olympic data updates**.
-- Enhancing athlete comparison features with more detailed statistics.
+---
 
-## Contributing
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
+### 👉 Option 2: Using Standard Python and pip
 
-## License
-This project is licensed under the **MIT License**.
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/yourusername/olympics-data-analysis.git
+   cd olympics-data-analysis
+   ```
 
-## Contact
-For any queries or suggestions, contact **Nipun Goel** at **nipungoel346@gmail.com** or connect via [LinkedIn](https://www.linkedin.com/in/nipungoel24/).
+2. **(Optional) Create a virtual environment**  
+   ```bash
+   python -m venv venv
+   source venv/bin/activate       # On Windows: venv\Scripts\activate
+   ```
 
+3. **Install dependencies**  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Streamlit app**  
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
+## 📦 Tech Stack
+- **Python** – Core programming language  
+- **Pandas & NumPy** – Data wrangling  
+- **Matplotlib & Seaborn** – Static visualizations  
+- **Plotly** – Interactive visualizations  
+- **Streamlit** – Web app framework
+
+---
+
+## 🔮 Future Enhancements
+- Add **machine learning** models to predict future medal trends  
+- Integrate **live Olympic data updates**  
+- Enhance athlete comparison with more granular statistics  
+
+---
+
+## 🤝 Contributing
+We welcome contributions!  
+Feel free to fork this repo and raise a pull request with your improvements.
+
+---
+
+## 📄 License
+Licensed under the **MIT License**.
+
+---
+
+## 📬 Contact
+Have questions or ideas?  
+📧 nipungoel346@gmail.com  
+🔗 [LinkedIn – Nipun Goel](https://www.linkedin.com/in/nipungoel24/)  
